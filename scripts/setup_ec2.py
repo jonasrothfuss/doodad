@@ -63,18 +63,18 @@ aws_access_key=$aws_access_key
 aws_access_secret=$aws_access_secret
 
 [aws_image_ids]
-ap-northeast-1=ami-c42689a5
-ap-northeast-2=ami-865b8fe8
-ap-south-1=ami-ea9feb85
-ap-southeast-1=ami-c74aeaa4
-ap-southeast-2=ami-0792ae64
-eu-central-1=ami-f652a999
-eu-west-1=ami-8c0a5dff
-sa-east-1=ami-3f2cb053
-us-east-1=ami-de5171c9
-us-east-2=ami-e0481285
-us-west-1=ami-efb5ff8f
-us-west-2=ami-53903033
+ap-northeast-1=ami-002f0167
+ap-northeast-2=ami-590bd937
+ap-south-1=ami-77314318
+ap-southeast-1=ami-1610a975
+ap-southeast-2=ami-9dd4ddfe
+eu-central-1=ami-63af720c
+eu-west-1=ami-41484f27
+sa-east-1=ami-b7234edb
+us-east-1=ami-83f26195
+us-east-2=ami-66614603
+us-west-1=ami-576f4b37
+us-west-2=ami-b8b62bd8
 
 [aws_key_names]
 $all_region_aws_key_names

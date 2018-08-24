@@ -40,4 +40,8 @@ class Autoconfig(object):
     def aws_key_name(self, region):
         return self.config['aws_key_names'][region]
 
+    def aws_key_path(self, region):
+        key_name = self.aws_key_name(region)
+        return os.path.join(REPO_DIR, 'aws_config', 'private/key_pairs', key_name + '.pem')
+
 AUTOCONFIG = Autoconfig()
