@@ -7,9 +7,16 @@ from doodad.utils import REPO_DIR
 from doodad.easy_sweep.hyper_sweep import run_sweep_doodad, run_sweep_parallel, run_sweep_serial
 
 INSTANCE_TO_PRICE = {
-    'c4.large': 0.03,
-    'c4.xlarge': 0.05,
-    'c4.2xlarge': 0.08,
+    'c4.large': 0.1,
+    'c4.xlarge': 0.2,
+    'c4.2xlarge': 0.4,
+    'c4.4xlarge': 0.8,
+    'c4.8xlarge': 1.6,
+    'm4.large': 0.1,
+    'm4.xlarge': 0.2,
+    'm4.2xlarge': 0.4,
+    'm4.4xlarge': 0.8,
+    'm4.8xlarge': 1.6,
     'p2.xlarge': 0.2,
 }
 
