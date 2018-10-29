@@ -71,10 +71,10 @@ ap-southeast-2=ami-9dd4ddfe
 eu-central-1=ami-63af720c
 eu-west-1=ami-41484f27
 sa-east-1=ami-b7234edb
-us-east-1=ami-83f26195
-us-east-2=ami-66614603
-us-west-1=ami-576f4b37
-us-west-2=ami-b8b62bd8
+us-east-1=ami-0bb2bf4857db440e0
+us-east-2=ami-09cd8ec62b2dbb3d6
+us-west-1=ami-05e00979871a39188
+us-west-2=ami-0111a16ab53cb7ea9
 
 [aws_key_names]
 $all_region_aws_key_names
