@@ -69,7 +69,7 @@ ap-south-1=ami-77314318
 ap-southeast-1=ami-1610a975
 ap-southeast-2=ami-9dd4ddfe
 eu-central-1=ami-63af720c
-eu-west-1=ami-41484f27
+eu-west-1=ami-0547d7346683eb090
 sa-east-1=ami-b7234edb
 us-east-1=ami-0bb2bf4857db440e0
 us-east-2=ami-09cd8ec62b2dbb3d6
@@ -204,7 +204,7 @@ def setup_s3():
             ACL='private',
             Bucket=S3_BUCKET_NAME,
             CreateBucketConfiguration={
-                'LocationConstraint': 'us-west-1'}
+                'LocationConstraint': 'eu-west-1'}
         )
     except botocore.exceptions.ClientError as e:
         if e.response['Error']['Code'] == 'BucketAlreadyExists':
